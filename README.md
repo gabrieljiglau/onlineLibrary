@@ -9,7 +9,7 @@ download a book (DOWNLOAD : bookName, authorName), rate a book (RATE BOOK : book
 and to get some book recommendations bassed on their download history (Get my recommendations). 
 An exhaustive list of all their downloaded books can be seen by using the following command : Get my downloads.
 
-At any time, the SHUTDOWN command can be send to end the connection.
+At any time, the SHUTDOWN command can be sent to end the connection.
 
 !NOTA BENE : the books in the insert_books.sql have a filePath relative to the Downloads directory, and for this reason,
 the value corresponding to the file path should be of the follwing type : /home/yourComputerUsername/Downloads/hereTheNameOfTheBook.
