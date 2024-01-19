@@ -11,6 +11,6 @@ An exhaustive list of all their downloaded books can be seen by using the follow
 
 At any time, the SHUTDOWN command can be send to end the connection.
 
-!NOTA BENE : the books in the insert_books.sql have a filePath relative to the user download, and for this reason,
+!NOTA BENE : the books in the insert_books.sql have a filePath relative to the Downloads directory, and for this reason,
 the value corresponding to the file path should be of the follwing type : /home/yourComputerUsername/Downloads/hereTheNameOfTheBook.
  
