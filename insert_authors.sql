@@ -1,0 +1,33 @@
+INSERT INTO authors (name) VALUES ('Aristotle');
+INSERT INTO authors (name) VALUES ('Socrates');
+INSERT INTO authors (name) VALUES ('Blaise Pascal');
+INSERT INTO authors (name) VALUES ('Friedrich Nietzsche');
+INSERT INTO authors (name) VALUES ('Jean-Jacques Rousseau');
+INSERT INTO authors (name) VALUES ('Milan Kundera');
+INSERT INTO authors (name) VALUES ('Thomas Hobbes');
+INSERT INTO authors (name) VALUES ('Octavian Paler');
+INSERT INTO authors (name) VALUES ('Albert Camus');
+INSERT INTO authors (name) VALUES ('Jean-Paul Sartre');
+INSERT INTO authors (name) VALUES ('Fyodor Dostoevsky');
+INSERT INTO authors (name) VALUES ('Mikhail Bulgakov');
+INSERT INTO authors (name) VALUES ('Ilarie Voronca');
+INSERT INTO authors (name) VALUES ('Paul Celan');
+INSERT INTO authors (name) VALUES ('A.E. Baconsky');
+INSERT INTO authors (name) VALUES ('Geo Bogza');
+INSERT INTO authors (name) VALUES ('Fernando Pessoa');
+INSERT INTO authors (name) VALUES ('Stephen Hawking');
+INSERT INTO authors (name) VALUES ('Isaac Newton');
+INSERT INTO authors (name) VALUES ('Heisenberg');
+INSERT INTO authors (name) VALUES ('Charles Darwin');
+INSERT INTO authors (name) VALUES ('Marie Curie');
+INSERT INTO authors (name) VALUES ('Adam Smith');
+INSERT INTO authors (name) VALUES ('Maria Andronie');
+INSERT INTO authors (name) VALUES ('Ferucio Tiplea');
+INSERT INTO authors (name) VALUES ('Max Tegmark');
+INSERT INTO authors (name) VALUES ('Aida Toma');
+INSERT INTO authors (name) VALUES ('Marta Macho Stadler');
+INSERT INTO authors (name) VALUES ('Bartolo Luque');
+INSERT INTO authors (name) VALUES ('Theodor Adorno');
+INSERT INTO authors (name) VALUES ('Seneca');
+
+
