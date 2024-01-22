@@ -6,7 +6,7 @@ Users connect with the following command : LOGIN : yourUsername, PASSWORD : your
 Once logged in, they can choose to see the authors and their written books (Get books by author : authorName),
 check the available genres and subgenres (Get genres, Get subgenres), or together (Get genres and subgenres),
 download a book (DOWNLOAD : bookName, authorName), rate a book (RATE BOOK : bookName), see the rating (GET RATING : bookName)
-and to get some book recommendations bassed on their download history (Get my recommendations). 
+and to get some book recommendations based on their download history (Get my recommendations). 
 An exhaustive list of all their downloaded books can be seen by using the following command : Get my downloads.
 
 At any time, the SHUTDOWN command can be sent to end the connection.
