@@ -13,6 +13,4 @@ At any time, the SHUTDOWN command can be sent to end the connection.
 
 !NOTA BENE : the books in the insert_books.sql have a filePath relative to the Downloads directory, and for this reason,
 the value corresponding to the file path should be of the follwing type : /home/yourComputerUsername/Downloads/hereTheNameOfTheBook.
-
-The following libraries need to be given as an argument for the server to run : sodium and lsqlite3.
  
