@@ -1,5 +1,5 @@
 # onlineLibrary
-Server-client architecture  with functionalities of an online library
+Concurrent Server-client architecture  with functionalities of an online library
 
 Users connect with the following command : LOGIN : yourUsername, PASSWORD : yourPassword.
 
