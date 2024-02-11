@@ -1899,6 +1899,20 @@ void handleClient(int clientFd, int index){
 
 int main(){
 
+    sqlite3 *db = openDatabase(DATABASE_PATH);
+    if(db == NULL){
+        perror("openDatabase()");
+        exit(EXIT_FAILURE);
+    }
+
+    if (createTableAuthors(db) == -1 || createTableGenres(db) == -1 || createTableUsers(db) == -1 || createTableSubgenres(db) == -1 || 
+        createTableSubgenres(db) == -1 || createTableUserHistory(db) == -1 || createTableBooks(db) == -1){
+        perror("table creation");
+        exit(EXIT_FAILURE);
+    }
+
+    closeDatabase(db);
+    
     for(int i = 0; i < FD_SIZE; i++){
         clients[i].clientFd = -1;
         clients[i].isLoggedIn = false;
