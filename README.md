@@ -15,6 +15,8 @@ At any time, the SHUTDOWN command can be sent to end the connection.
 the value corresponding to the file path should be of the follwing type : /home/yourComputerUsername/Downloads/hereTheNameOfTheBook.
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+
+```html
 <div id="sqlite-commands">
     <code>
         sqlite3 LibraryManager &lt; insert_genres_and_subgenres.sql
@@ -37,6 +39,7 @@ the value corresponding to the file path should be of the follwing type : /home/
     <button class="btn" data-clipboard-target="#run-commands">Copy</button>
 </div>
 
+```html
 <script>
     new ClipboardJS('.btn');
 </script>
