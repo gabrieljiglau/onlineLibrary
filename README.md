@@ -13,34 +13,24 @@ At any time, the SHUTDOWN command can be sent to end the connection.
 
 !NOTA BENE : the books in the insert_books.sql have a filePath relative to the Downloads directory, and for this reason,
 the value corresponding to the file path should be of the follwing type : /home/yourComputerUsername/Downloads/hereTheNameOfTheBook.
+The database is created in the directory where you execute the ```Compilation Commands```
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+### SQLite commands for populating the database
 
-```html
-<div id="sqlite-commands">
-    <code>
-        sqlite3 LibraryManager &lt; insert_genres_and_subgenres.sql
-    </code>
-    <button class="btn" data-clipboard-target="#sqlite-commands">Copy</button>
-</div>
+```
+sqlite3 LibraryManager < insert_genres_and_subgenres.sql
+sqlite3 LibraryManager < insert_authors.sql
+sqlite3 LibraryManager < insert_books.sql
+```
 
-<div id="compile-commands">
-    <code>
-        severulAlaBun.c -o serverulAlaBunExe -lsodium -lsqlite3 <br>
-        myClient.c -o myClientExe
-    </code>
-    <button class="btn" data-clipboard-target="#compile-commands">Copy</button>
-</div>
+### Compilation Commands
 
-<div id="run-commands">
-    <code>
-        ./serverulAlaBunExe &amp; ./myClientExe
-    </code>
-    <button class="btn" data-clipboard-target="#run-commands">Copy</button>
-</div>
+```
+gcc severulAlaBun.c -o serverulAlaBunExe -lsodium -lsqlite3
+gcc myClient.c -o myClientExe
+```
 
-```html
-<script>
-    new ClipboardJS('.btn');
-</script>
- 
+### Run command
+```
+./serverulAlaBunExe & ./myClientExe
+```
